@@ -1,0 +1,194 @@
+body{
+    font-family: cursive;
+    background-color: #fff59d;
+}
+h1{
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+      color: rgb(0, 0, 0);
+    background-image: url('https://plus.unsplash.com/premium_photo-1717422935480-6a66474b88a9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFyaXMlMjBibGFjayUyMGFuZCUyMHdoaXRlfGVufDB8fDB8fHww');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    border:none;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 25px;
+}
+.contenido #video{
+    display: block;
+    margin: 0 auto;
+    width: 650px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+
+}
+#Fechasyeventos .sede-table th, #Fechasyeventos .sede-table td{
+    text-align: center;
+    border: 2px solid black;
+}
+#Sedes .sede2-table th, #Sedes .sede2-table td, #Sedes .sede2-table2 th, #Sedes .sede2-table2 td,
+#Sedes .sede2-table3 th, #Sedes .sede2-table3 td{
+    text-align: center;
+    border: 2px solid black;
+}
+#Fechasyeventos .sede-table img, #Sedes .sede2-table img, #Sedes .sede2-table2 img, #Sedes .sede2-table3 img{
+    height: 200px;
+    width: 400px;   
+}
+#Fechasyeventos .sede-table, #Sedes .sede2-table, #Sedes .sede2-table2, #Sedes .sede2-table3{
+    width: 75%;
+    margin: 0 auto;
+}
+#Fechasyeventos .sede-table td, #Sedes .sede2-table td, #Sedes .sede2-table2 td, #Sedes .sede2-table3 td{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+#Fechasyeventos .sede-table th, #Sedes .sede2-table th, #Sedes .sede2-table2 th, #Sedes .sede2-table3th{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+}
+#Sedes .sede2-table3 td{
+    width: 300px;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+}
+#Sedes .sede2-table3 th{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+}
+#Tecnologias li{
+    background-color: rgb(216, 129, 98);
+}
+#Tecnologias li ul li{
+    background-color: skyblue
+}
+#Sedes h4, #Tecnologias h5{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-left: 50px;
+    font-size: 30px;
+}
+#Participaciones h6{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+#Impactosocialyeconomico h7{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#Participaciones li{
+    margin-bottom: 20px;
+}
+#Impactosocialyeconomico li{
+    margin-bottom: 20px;
+}
+#Impactosocialyeconomico h8{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-left: 50px;
+    font-size: 30px;
+}
+#Participaciones ol{
+    margin-bottom: 35%;
+}
+#Tecnologias li, #Participaciones ol, #Impactosocialyeconomico ol{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 80%;
+}
+#Participaciones li{
+    background-color: rgb(216, 129, 98);
+    border-bottom: none;
+    border-radius: 5px;
+    background-position: 20px;
+}
+#Participaciones ul li{
+    background-color: rgb(154, 198, 226);
+    border-bottom: none;
+    border-radius: 10px;
+}#Tecnologias ul p{
+    background-color: rgb(154, 198, 226);
+    border-bottom: none;
+    border-radius: 10px;
+}
+#Tecnologias p{
+    width: 80%;
+    margin-left: 50px;
+}
+#Inicio h2{
+    font-family: 'Lobster', cursive;
+    margin-left: 50px;
+    font-size: 30px;
+}
+#Inicio p{
+margin-top: -30px;
+}
+#Fechasyeventos h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.header{
+    background-color: white;
+    background-position: 50% -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 15px 4%;
+}
+.header .logo img{
+    height: 95px;
+    width: auto;
+}
+.header .nav{
+    list-style: none;
+}
+.header .nav li{
+    background-color: rgb(193, 83, 83);
+    background-position: 20%;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 5px;
+    display: inline-block;
+    padding: 5px 24px;
+    font-size: 20px;
+    transition: all 0.3s ease 0s;
+}
+.header .nav li:hover{
+    background-color: #2f4323;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+.header .nav a{
+    font-size: 200;
+    color: wheat;
+    text-decoration: none;
+    
+}
+.texto p{
+    border-radius:10%;
+    background-color:chartreuse;
+    width: 55%;
+    margin: 0 auto;
+    padding: 25px;
+}
